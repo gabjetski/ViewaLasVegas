@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>Viewa Las Vegas</title> 
+</head>
+<body>
+    <h1> Hotels </h1>
+
+    <ul>
+    <!-- Caesars Palace -->
+        <uk>
+            <li>
+                ###Hotel1###
+            </li>
+
+            <li>
+                ###Hotel2###
+            </li>
+
+            <li>
+                ###Hotel3###
+            </li>
+        </uk>
+        <h2>###Hotel1###</h2>
+        <p>
+            Select from an extensive list of room types, amenities, views and locations at the iconic Caesars Palace resort. As one of the largest Las Vegas hotels, there are five towers of rooms—including high-end suites and villas.
+        </p>
+
+        <ul>
+            <li>1 Colosseum</li>
+            <li>10 Bars / Lounges</li>
+            <li>22 Restaurants</li>
+            <li>3,500+ Hotel Rooms</li>
+            <li>Infinite Luxury</li>
+        </ul>
+
+<ul>
+        {% for hotelName in hotel %}
+        <li>{{ hotelName.name|e }} </li>
+        {% endfor %}
+
+        <li>{}</li>
+</ul>
+
+
+    <!-- The Venetian -->
+        <h2>The Venetian</h2>
+        <h3>Stay in a Suite</h3>
+
+        <p>At almost twice the size of your average Las Vegas hotel room, The Venetian offers the largest standard suite on the Strip.</p>
+        <p> A spacious suite with a separate living area with a king bed</p>
+        <p> LUXURY KING SUITE | 650 FT² | 1 KING BED</p>
+        
+        <p></p>Stretch out in an oversized, pillow-top king bed, entertain in your distinct living room, or soak in your oversized tub. Choose a room with a view to enjoy the Las Vegas lights.</p>
+
+    <!-- Bellagio Hotel & Casino Palace -->
+        <h2>Bellagio Hotel & Casino</h2>
+        <p>
+            The hotel rooms and suites at the Bellagio offer the perfect blend of beauty and elegance. 
+            Our rooms will elevate your stay, whether you're traveling for business, celebrating a honeymoon, 
+            or just looking for a remarkable getaway. With views of the Las Vegas valley or the iconic Bellagio
+            fountains right from your suite, your stay will be nothing short of unforgettable.
+        </p>
+
+        <p>
+            There's plenty of must-see shows at Bellagio Las Vegas. 
+            Visit our complimentary attractions or stay longer with 
+            tickets to our exclusive shows like "O" by Cirque du Soleil
+            & the Gallery of Fine Art, featuring the best in art and culture.
+        </p>
+
+        <h3>Premier King</h3>
+        <p>
+            Located in the Bellagio Tower, the newly remodeled Premier King is a blissful refuge with soft and reflective tones reminiscent of the sun rising over Lake Como, Italy. 
+        </p>
+
+        <ul>
+            <li>510sq. ft</li>
+            <li>King Bed</li>
+            <li>Max. Guest 3</li>
+        </ul>
+
+    </ul> 
+  
+
+</body>
+</html>

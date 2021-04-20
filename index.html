@@ -12,7 +12,7 @@
 
     <ul>
     <!-- Caesars Palace -->
-        <uk>
+        <ul>
             <li>
                 ###Hotel1###
             </li>
@@ -24,7 +24,12 @@
             <li>
                 ###Hotel3###
             </li>
-        </uk>
+        </ul>
+
+        <h1>{ Hotel.name }</h1>
+
+        <f:for each="{types.csv as array}" as="arrayMember">	- {arrayMember}
+</f:for>
         <h2>###Hotel1###</h2>
         <p>
             Select from an extensive list of room types, amenities, views and locations at the iconic Caesars Palace resort. As one of the largest Las Vegas hotels, there are five towers of rooms—including high-end suites and villas.
@@ -85,7 +90,6 @@
         </ul>
 
     </ul> 
-  
 
 </body>
 </html>

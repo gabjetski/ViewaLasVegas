@@ -1,0 +1,5 @@
+{
+    "require": {
+        "friendsoftypo3/extension-builder": "^9.10"
+    }
+}

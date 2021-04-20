@@ -1,7 +1,7 @@
 <?php
-
+namespace TYPO3Fluid\Fluid;
 class Hotel{
-    private string $name;
+    private string $hotelName;
     
     public function getName(): string
     {
